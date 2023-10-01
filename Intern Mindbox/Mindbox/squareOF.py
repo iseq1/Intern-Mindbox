@@ -5,7 +5,7 @@ import math
 
 class Shape:
     def calculate_area(self):
-        raise NotImplementedError("Area calculation not implemented")
+        raise NotImplementedError("Невозможно высчитать площадь")
 
 
 class Circle(Shape):
